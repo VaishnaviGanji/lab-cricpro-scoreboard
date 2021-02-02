@@ -1,16 +1,202 @@
-/* Type your code here */
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700;800&display=swap');
 
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-image: url('./assets/background-image1.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: 'Nunito Sans', sans-serif;
+
+}
+
+/* table {
+	border-collapse: collapse;
+	background-color: white;
+	height: 350px;
+	width: 700px;
+}
+
+th,
+td {
+	border-bottom: 1px solid grey;
+	border-top: 1px solid gray;
+	padding: 5px;
+	font-size: medium;
+
+} */
+
+/* .titletext {
+	font-family: 'Nunito Sans', sans-serif;
+	font-weight: bold;
+	padding-bottom: 30px;
+	height: 1000px;
+}
+
+.titletext h1 {
+	font-size: 30px;
+}
+
+.titletext p {
+	color: gray;
+
+} */
+
+#fulltable, #heading {
+	padding-left: 8px;
+}
+
+#fulltable {
+	padding-top: 40px;
+	display: flex;
+	flex-direction: column;
+	width: 1200px;
+	font-size: 23px;
+	/* font-weight: 500; */
+	/* margin-right: 500px; */
+}
+
+#margin {
+	margin: 50px;
+}
+
+.firstrow {
+	background-color: #f05a3f;
+	color: white;
+	font-weight: 700;
+	display: flex;
+	height: 55px;
+	justify-content: space-between;
+	padding-left: 22px;
+	padding-right: 20px;
+	align-items: center;
+}
+
+
+.headerrow {
+	display: flex;
+	background-color: #faf4f4;
+	height: 55px;
+	align-items: center;
+	padding-left: 22px;
+	padding-right: 20px;
+	font-weight: 200;
+}
+
+.batsman {
+	display: flex;
+	justify-content: space-between;
+	width: 800px;
+	font-weight: 200;
+
+}
+
+.row {
+	display: inline-flex;
+	height: 55px;
+	align-items: center;
+	padding-left: 22px;
+	padding-right: 22px;
+	background-color: white;
+}
+
+.bat {
+	display: flex;
+	align-items: center;
+	width: 300px;
+	/* height: 55px; */
+	/* justify-content: space-between; */
+	
+}
+
+.ball {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	width: 500px;
+}
+
+.runs {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 600px;
+}
+
+.extras {
+	display: flex;
+	width: 650px;
+}
+
+.notbat {
+	display: flex;
+	width: 250px;
+}
+/* #background {
+	background-color: lightgrey;
+} */
+
+/* .pop {
+	text-decoration: none;
+	font-weight: 550;
+} */
+
+.logo {
+	float: right;
+	padding: 20px 100px 0 0;
+	
+}
+
+#container {
+	padding: 90px;
+}
+
+h1 {
+	font-weight: 800;
+	font-size: 62px;
+	text-shadow: 1px 6px 5px #9c9898;
+}
+
+h3 {
+	font-weight: 650;
+	font-size: 30px;
+	color: #696565;
+}
+
+a {
+	text-decoration: none;
+	color: #4583d9;
+	font-size: 23px;
+	font-weight: 500;
+}
+
+/* .bat {
+	font-weight: 700;
+}*/
+
+.diff {
+	color: gray;
+	/* font-size: medium; */
+}
+/*
+tr {
+	height: 50px;
+	font-weight: 500;
+} */
 
 /* change the font family and spacing as per your project font */
-.footer{
-    display:flex;
-    flex-direction: row;
-    align-content: flex-end;
-	position: relative;
-	top: 750px;
+.footer {
+	display: flex;
+	flex-direction: row;
+	align-content: flex-end;
+	/*position: relative;
+	top: 750px;*/
 	margin-left: 80px;
-	font-size: 18px;
+	font-size: 20px;
 	font-family: Nunito Sans;
-    font-style: normal;
-    
+	font-style: normal;
+
 }
